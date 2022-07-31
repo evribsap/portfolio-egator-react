@@ -91,7 +91,7 @@
     }
 
     .about__cards {
-        grid-template-colums: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         gap: 1rem;
     }
 
