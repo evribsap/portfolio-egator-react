@@ -22,14 +22,14 @@
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
-  --container-width-ms: 90%;
+  --container-width-sm: 90%;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-::-webkit-scrollvbar {
+::-webkit-scrollbar {
   display: none;
 }
 
@@ -41,10 +41,10 @@ body {
   background-image: url(../src/assets/bg-texture.png);
 }
 
-/* ============= GENERAR STYLES ============= */
+/* ============= GENERAL STYLES ============= */
 
 .container {
-  width: var(--container-white-lg);
+  width: var(--container-width-lg);
   margin: 0 auto;
 }
 
@@ -58,6 +58,7 @@ h1 {
 
 section {
   margin-top: 8rem;
+  height: 100vh;
 }
 
 section > h2, section h5 {
@@ -90,7 +91,7 @@ a:hover {
   padding: 0.75rem 1.2rem;
   border-radius: 0.4rem;
   cursor: pointer;
-  border: 1px solid cvar(--color-primary);
+  border: 1px solid var(--color-primary);
   transition: var(--transition);
 }
 
